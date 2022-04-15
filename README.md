@@ -3,3 +3,4 @@ QuestionBank is a web application basically for students.QuestionBank provides f
 
 # Relational Model::
 
+https://github.com/debapriya65/QuestionBank/blob/bfadaa99453cb2cb31d3a8cee099dd28dc02567b/database%20project%20(1).jpg
