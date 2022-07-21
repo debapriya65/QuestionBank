@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Problemset</title>
+    <link rel="stylesheet" type="text/css" href="../styles/profile.css" />
+    <script src="../scripts/profile.js"></script>
+  </head>
+  <body style="background: #f0f2f5">
+    <div>
+      <div class="nav">
+        <img src="../res/Question_bank.jpg" width="250" height="50" />
+        <div onclick="open_problemset()" id="problemset_page" class="button">
+          <b>PROBLEMSET</b>
+        </div>
+        <div id="quiz_page" class="button"><b>QUIZ</b></div>
+        <div class="right">
+          <div
+            id="name"
+            class="button"
+            style="
+              background-color: #325aa8;
+              color: white;
+              border-radius: 10px;
+              width: fit-content;
+            "
+          >
+            <b>Debapriya Dhar</b>
+          </div>
+          <div onclick="log_out()" class="button"><b>LOG OUT</b></div>
+        </div>
+      </div>
+      <div
+        style="
+          margin: 1%;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div id="info" class="card">
+          <div
+            style="
+              width: 100%;
+              height: 40%;
+              background-image: url('../res/profile.jpg');
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <img
+              id="profile_photo"
+              src="../res/my_photo.jpg"
+              style="height: 100px; width: 100px; border-radius: 50px"
+            />
+            <div style="font: 1.5em sans-serif; color: #f0f2f5">
+              <div id="my_name" style="margin: 1%">Debapriya Dhar</div>
+              <div id="my_organization" style="margin: 1%">
+                Shahjalal University of science and technology
+              </div>
+            </div>
+          </div>
+          <div style="width: 100%; height: 60%">
+            <div id="myquiz"></div>
+            <div id="create_question"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
